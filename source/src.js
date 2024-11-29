@@ -49,7 +49,7 @@ const shareTwitter = document.querySelector('#shareTwitter');//Declara a variáv
    https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
 */
 
-newQuote.addEventListener('click', async () => {//Função assincrona que se inicia quando o 'botão' newQuote é pressionado
+newQuote.addEventListener('click', () => {//Função que se inicia quando o 'botão' newQuote é pressionado
    do {//Executa o código abaixo uma vez
        randomNumber = Math.floor(Math.random() * data.length);//Sorteia um numero de 0 ao tamanho do array
    } while (message.innerHTML === data[randomNumber].quote);//Enquanto o Texto que está sendo exibido for igual ao que vai ser exibido ele irá reiniciar o loop
