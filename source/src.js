@@ -31,14 +31,12 @@ console.log (data.length);
 // https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector
 
 const message = document.querySelector('#message');//Declara a variável message com o elemento message do html
-const newQuote = document.querySelector('#newQuote');//Declara a variável newQuote com o elemento newQuote do html
 const shareTwitter = document.querySelector('#shareTwitter');//Declara a variável shareTwitter com o elemento shareTwitter do html
 
 // selecionar nó do html relacionado ao botão de novas frases
 // https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
 // selecionar nó do html relacionado ao botão de compartilhar twitter
-
-
+const newQuote = document.getElementById('newQuote');//Declara a variável newQuote com o elemento newQuote do html
 
 /* adicionar evento de click para quando usuário clicar no botão newQuote
    passos: 
