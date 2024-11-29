@@ -1,2 +1,2 @@
-# MiguelFavaSantos
-Entrega do trabalho por Miguel Fava Santos
+# QuoteMachineTemplate
+Repositorio de template do projeto "quote machine" que será dado em sala de aula
