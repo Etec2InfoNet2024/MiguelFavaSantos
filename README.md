@@ -1,2 +1,2 @@
-# QuoteMachineTemplate
-Repositorio de template do projeto "quote machine" que será dado em sala de aula
+# Quote Machine
+Repositorio do projeto "Quote Machine" do aluno Miguel Fava
